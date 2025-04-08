@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.css" />
+    <title>Form Registration</title>
+  </head>
+  <body>
+    <form style="background-image: url(987478.jpg); padding: 100px">
+      <h2>Silahkan Isi Biodata anda :</h2>
+      <table>
+        <tr style="color: white">
+          <td>Nama</td>
+          <td>
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              required
+              placeholder="Nama Lengkap"
+              class="form-control form-control-md"
+              style="width: 300px"
+            />
+          </td>
+        </tr>
+        <tr style="color: white">
+          <td>Nomor Telpon</td>
+          <td>
+            <input
+              type="text"
+              id="phone"
+              name="phone"
+              required
+              placeholder="08"
+              pattern="[0-9]{12}"
+              class="form-control form-control-sm"
+            />
+          </td>
+        </tr>
+        <tr style="color: white">
+          <td>Email</td>
+          <td>
+            <input type="email" id="nama" name="nama" class="form-control" />
+          </td>
+        </tr>
+        <tr style="color: white">
+          <td>Password</td>
+          <td>
+            <input
+              type="Password"
+              id="Password"
+              name="Password"
+              required
+              placeholder="at least 1-A, 1-a, 0-9, 10 karakter"
+              pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{10,10}$"
+              class="form-control"
+            />
+          </td>
+        </tr>
+        <tr style="color: white">
+          <td>Tanggal Lahir</td>
+          <td><input type="date" id="nama" name="nama" /></td>
+        </tr>
+        <tr style="color: white">
+          <td>Jenis Kelamin</td>
+          <td>
+            <input
+              type="radio"
+              id="cowok"
+              name="Kelamin"
+              value="1"
+              class="form-check-input"
+            />
+            <label for="cowok" class="form-check-label">Laki-laki</label>
+            <input
+              type="radio"
+              id="cewek"
+              name="Kelamin"
+              value="2"
+              class="form-check-input"
+            />
+            <label for="cewek" class="form-check-label">Perempuan</label>
+          </td>
+        </tr>
+
+        <tr style="color: white">
+          <td>Les yang ingin diikuti</td>
+          <td>
+            <input
+              type="checkbox"
+              id="html"
+              name="html"
+              value="html"
+              class="form-check-input"
+            />
+            <label for="html" class="form-check-label">html</label>
+            <input
+              type="checkbox"
+              id="css"
+              name="css"
+              value="css"
+              class="form-check-input"
+            />
+            <label for="css" class="form-check-label">CSS</label>
+            <input
+              type="checkbox"
+              id="js"
+              name="js"
+              value="javascript"
+              class="form-check-input"
+            />
+            <label for="javascript" class="form-check-label">javascript</label>
+            <input
+              type="checkbox"
+              id="PHP"
+              name="PHP"
+              value="PHP"
+              class="form-check-input"
+            />
+            <label for="PHP" class="form-check-label">PHP</label>
+          </td>
+        </tr>
+        <tr style="color: white">
+          <td>Tingkat Pendidikan</td>
+          <td>
+            <select
+              name="Pendidikan"
+              id="Pendidikan"
+              style="width: 100px"
+              class="form-select"
+            >
+              <option value="SD">SD</option>
+              <option value="SMP">SMP</option>
+              <option value="SMA">SMA</option>
+              <option value="Kuliah">Kuliah</option>
+            </select>
+          </td>
+        </tr>
+        <tr style="color: white">
+          <td>Upload CV</td>
+          <td><input type="file" /></td>
+        </tr>
+        <tr style="color: white">
+          <td valign="top">Komentar dan Saran</td>
+          <td>
+            <textarea
+              id="komentar"
+              name="komentar"
+              rows="4"
+              cols="100"
+            ></textarea>
+          </td>
+        </tr>
+      </table>
+      <input
+        type="submit"
+        value="Kirim"
+        class="btn btn-success btn-lg"
+        style="width: 100px; margin-inline-end: 500px"
+      />
+    </form>
+  </body>
+</html>

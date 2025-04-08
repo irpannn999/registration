@@ -1,0 +1,67 @@
+#header{
+    background-color: rgb(10, 10, 10); 
+    text-align: center; 
+    color: gold; 
+    font-family: serif; 
+    font-size: 24px; 
+    padding: 20px;
+
+
+}
+
+#artikel{
+    padding-top: 20px; 
+    padding-bottom: 60px;
+    font-family:'Courier New'; 
+    font-size:18px; 
+    color:white;
+    text-align: center;
+
+}
+
+.pilihan{
+    color: rgba(207, 218, 207, 0.856); 
+    font-size: 24px;
+
+
+}
+
+.penjelasan{
+    width: 400px; 
+    height: 250px; 
+    background-color: white; 
+    color:black;
+    overflow: scroll; 
+    border:thick 8px;
+    
+}
+
+#Galeri{
+    text-align: center;
+    font-family: 'Segoe UI';
+    color: white;
+    font-size: 36px;;
+    
+}
+
+#nav{
+    background-color: rgb(10, 10, 10);
+    padding:2px;
+    text-align: center;
+    ;
+}
+
+#utama{
+    background-color: black ; 
+    padding: 8px;
+}
+
+#photo{
+    text-align:center;
+}
+
+#matkul{
+    color: white;
+    text-align: left;
+    font-family: 'Times New Roman';
+}
